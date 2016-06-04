@@ -1,0 +1,17 @@
+﻿<Window x:Class="PizzaTimer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzaTimer"
+        mc:Ignorable="d"
+        Title="ThePizzaTimer" Height="251.108" Width="304.917" Icon="pack://siteoforigin:,,,/Resources/Sonya-Swarm-Pizza.ico" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,0">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="23" Margin="44,141,0,0" TextWrapping="Wrap" Text="00:15:00" VerticalAlignment="Top" Width="120" TextChanged="TextBox_OnTextChanged"/>
+        <Label x:Name="label" Content="Infos soon TM" HorizontalContentAlignment="Center" Margin="9,186,10,0" VerticalAlignment="Top" Width="278"/>
+        <Button x:Name="button" Content="start timer ..." HorizontalAlignment="Left" Margin="185,133,0,0" VerticalAlignment="Top" Width="95" Click="Button_OnClick"/>
+        <Button x:Name="button_Copy" Content="stop and reset ..." HorizontalAlignment="Left" Margin="185,158,0,0" VerticalAlignment="Top" Width="95" Click="Button_Copy_OnClick"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Source="pack://siteoforigin:,,,/Resources/Pizza-icon.png"/>
+
+    </Grid>
+</Window>
